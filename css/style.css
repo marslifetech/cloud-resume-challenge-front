@@ -1,0 +1,26 @@
+.profile-pic {
+    width: 300px;
+}
+.margin-top{
+    margin-top: 10vh;
+}
+
+.skills{
+    background-color: rgb(139, 133, 133);
+    border-radius: 5%;
+}
+
+.badges{
+    max-width: 150px;
+}
+
+.logo{
+    height:60px;
+}
+.logo-footer{
+    height: 75px;
+}
+
+.logo-name{
+    height: 35px;
+}
