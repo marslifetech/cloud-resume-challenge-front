@@ -1,0 +1,186 @@
+@media print {
+    html {
+        font-size: 12px;
+        -webkit-print-color-adjust:exact !important;
+        print-color-adjust:exact !important;
+    }
+
+    #download,
+    #footer,
+    #nav,
+    #infobar{
+        display: none !important;
+    }
+
+    #intro {
+        text-align:left !important;
+        width: 60%;
+        
+    }
+    #intro-btns{
+        width: 40%;
+        flex-direction: column !important;
+        
+    }
+    .intro-btn-txt {
+        display: block !important;
+                
+    }
+    .print-none {
+        display: none !important;
+    }
+    .print-inline {
+        display: inline !important;
+    }
+    .print-inline-block {
+        display: inline-block !important;
+    }
+    .print-fe{
+        float:right;
+    }
+    #resume-body {
+        padding-left: none !important;
+        padding-right: none !important;
+    }
+    #resume-body > div {
+        margin-top: 0px !important;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #resume-work {
+        width: 60%;
+    }
+    #resume-skills {
+        width: 40%;
+    }
+
+
+    .row {
+        margin-top: 0px !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    .btn {
+        color: var(--bs-btn-color) !important;
+        background-color: var(--bs-btn-bg) !important;
+    } 
+    .work-txt {
+        text-align: left !important; 
+    }
+    .work-txt span {
+        display: inline-block !important;
+    }
+    #cert-list {
+        flex-direction: column;
+        flex: 0 0  33.3333333333%;
+        height: 50px;
+        align-content: center;
+        text-align: left;
+        column-gap: 15px;
+    }
+    
+    .cert {
+        --bs-text-opacity: 1;
+        color: inherit !important;
+        text-decoration: none !important;
+        list-style-position: inside;
+    }
+    .cert li {
+        display:list-item !important; 
+        margin-left: 5px !important; 
+    }
+    .cert img {
+        display: none;
+    }
+
+}
+
+html.print {
+    font-size: 12px;
+    -webkit-print-color-adjust:exact !important;
+    print-color-adjust:exact !important;
+}
+
+.print #download,
+.print #footer,
+.print #nav{
+    display: none !important;
+}
+
+.print #intro {
+    text-align:left !important;
+    width: 60%;
+    
+}
+.print #intro-btns{
+    width: 40%;
+    flex-direction: column !important;
+    
+}
+.print .intro-btn-txt {
+    display: block !important;
+            
+}
+.print .print-none {
+    display: none !important;
+}
+.print .print-inline {
+    display: inline !important;
+}
+.print .print-inline-block {
+    display: inline-block !important;
+}
+.print .print-fe{
+    float:right;
+}
+.print #resume-body {
+    padding-left: none !important;
+    padding-right: none !important;
+}
+.print #resume-body > div > div {
+    margin-top: 0px !important;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.print #resume-work {
+    width: 60%;
+}
+.print #resume-skills {
+    width: 40%;
+}
+
+.print .row {
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.print .btn {
+    color: var(--bs-btn-color) !important;
+    background-color: var(--bs-btn-bg) !important;
+} 
+.print .work-txt {
+    text-align: left !important; 
+}
+.print .work-txt span {
+    display: inline-block !important;
+}
+.print #cert-list {
+    flex-direction: column;
+    flex: 0 0  33.3333333333%;
+    height: 50px;
+    align-content: center;
+    text-align: left;
+    column-gap: 15px;
+}
+
+.print .cert {
+    --bs-text-opacity: 1;
+    color: inherit !important;
+    text-decoration: none !important;
+}
+.print .cert li {
+    display:list-item !important; 
+}
+.print .cert img {
+    display: none;
+}

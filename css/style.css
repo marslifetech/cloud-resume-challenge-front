@@ -1,3 +1,4 @@
+
 body {
     height: 100vh;
     display: flex;
@@ -15,10 +16,6 @@ body {
     border-radius: 5%;
 }
 
-.badges{
-    max-width: 150px;
-}
-
 .logo{
     height:60px;
 }
@@ -29,3 +26,20 @@ body {
 .logo-name{
     height: 35px;
 } 
+
+
+
+#cert-list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cert li {
+    display: none;
+}
+.cert img {
+    max-width: 150px;
+}
+
+

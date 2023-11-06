@@ -1,18 +1,23 @@
-document.getElementById('download-btn') 
-        .addEventListener('click', () => { 
-            const element = document.getElementById('resume');
-            element.style.width = '2550px' 
-            const options = { 
-                filename: 'michael-uchytil-resume.pdf', 
-                margin: 0, 
-                image: { type: 'jpeg', quality: 0.98 }, 
-                html2canvas: { scale: 1 }, 
-                jsPDF: {  
-                    unit: 'in',  
-                    format: 'letter',  
-                    orientation: 'portrait'  
-                } 
-            }; 
-            html2pdf().set(options).from(element).save();
-            element.style.width = ''; 
-        }); 
+$(document).ready(()=>{
+    // $('#download-btn').on('click',()=>{
+        
+    //     $('html').addClass('print');
+    //     const { jsPDF } = window.jspdf; 
+    //     const doc = new jsPDF('l','in');
+    //     let pdfjs = document.querySelector('#resume-intro');
+    //     doc.html(pdfjs,{
+    //         callback: function(doc){
+    //             doc.save('resume.pdf');
+    //         },
+    //         x:50,
+    //         y:50
+    //     });
+    //     $('html').removeClass('print');
+    // });
+
+    $('#download-btn').on('click',()=>{
+        window.print();
+    });
+
+    
+});
