@@ -4,7 +4,13 @@
         -webkit-print-color-adjust:exact !important;
         print-color-adjust:exact !important;
     }
-
+    
+    /* hr {
+        width: 100%;
+        height: 0;
+        border-top: 1px solid #000;
+    } */
+    
     #download,
     #footer,
     #nav,
@@ -48,10 +54,10 @@
         margin-right: 0px;
     }
     #resume-work {
-        width: 60%;
+        width: 70%;
     }
     #resume-skills {
-        width: 40%;
+        width: 30%;
     }
 
 
@@ -91,6 +97,15 @@
     }
     .cert img {
         display: none;
+    }
+    .print-col{
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+        text-align: center !important;
+    }
+    .print-m-none{
+        margin-top:0px !important;
+        margin-bottom: 0px !important;
     }
 
 }
